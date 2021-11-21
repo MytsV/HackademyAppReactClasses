@@ -1,0 +1,15 @@
+html {
+  --main-dark-color: #312E81;
+  --main-lighter-color: #C7D2FE;
+  --tailwind-grey: #1F2937;
+  --tailwind-light-grey: #9CA3AF;
+  --backgroud-grey: #F3F4F6;
+  --tailwind-red: #EF4444;
+  --gradient: linear-gradient(90deg, rgba(236,72,153,1) 0%, rgba(99,102,241,1) 100%);
+  --gradient-vertical: linear-gradient(180deg, rgba(236,72,153,1) 0%, rgba(99,102,241,1) 100%);
+  --tailwind-pink: rgb(236,72,153);
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+}

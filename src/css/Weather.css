@@ -1,0 +1,34 @@
+.weather-headline {
+    color: var(--main-dark-color);
+}
+
+#forecast-table {
+    border-collapse: collapse;
+    font-size: 0.9em;
+    margin: 1.5em;
+    font-family: sans-serif;
+    min-width: 400px;
+}
+
+#forecast-table {
+    background-color: var(--main-dark-color);
+    color: #ffffff;
+    text-align: left;
+}
+
+#forecast-table th,
+#forecast-table td {
+    border-left: 2px solid var(--main-dark-color);
+    border-right: 2px solid var(--main-dark-color);
+    padding: 12px 15px;
+}
+
+#forecast-table tbody tr {
+    border: 2px solid var(--main-dark-color);
+    background-color: white;
+    color: var(--main-dark-color);
+}
+
+#forecast-table tbody tr:last-of-type {
+    border-bottom: 2px solid var(--main-dark-color);
+}
